@@ -1,0 +1,19 @@
+level,claim,status,evidence_type,load_bearing,next_gate
+P0,Polar-only formulation supplies Lorentzian geometry,DISPROVED,analytic no-go,no,Use Cartan completion
+P0,Cartan coframe and local gauge covariance,PASSED,analytic plus numerical roundoff,yes,Retain in core
+P1,Finite compact bosonic regulator,PASSED,compactness theorem,yes,Full matter measure and continuum
+P2,Classical GR/Einstein-Cartan limit,PASSED_CONDITIONALLY,analytic reduction,yes,Interacting universality
+P2,Intrinsic derivative torsion and curvature calculus,PASSED_FIXED_COMPLEX,exact and convergence tests,yes,Dynamical-complex validation
+P2,TEGR target ray 1:2:-4,PASSED_IN_SPECIFIED_BASIS,analytic basis map,diagnostic,Use physical correlators as primary proof
+P3,Exactly two free graviton helicities,PASSED_FIXED_BACKGROUND,Hessian and Gaussian lattice tests,yes,Interacting Cartan-CDT spectrum
+P4,Background-free non-Gaussian critical phase,OPEN,no full production simulation,yes,Cartan-CDT finite-size scan
+P4,Single-metric continuum,OPEN_REQUIRED,bimetric no-go and locking calculation,yes,Show m_rel xi -> infinity or ZC/ZR -> 0
+P4,No physical curvature-squared pole,OPEN_REQUIRED,pole decomposition,yes,Show alpha4/(Z xi^2) -> 0
+P4,Lorentzian unitarity or reflection positivity,OPEN,free sector only,yes,Full transfer matrix or OS reconstruction
+P5,Localized defect modes,PASSED_TOY_MODELS,numerical index/topology tests,no,Dynamical vacuum manifold
+P5,Four-dimensional chiral overlap index,PASSED_FINITE_ABERLIAN_BACKGROUND,numerical overlap operator,partial,Non-Abelian dynamical irregular complex
+P5,Standard Model derived from RLU,OPEN,representations inserted not derived,yes,Mirror decoupling generations masses
+P6,Beyond-GR EFT internally consistent,PARTIAL_CONDITIONAL,analytic EFT calculations,no,Microscopic matching
+P6,Universal nonzero RLU prediction,OPEN,no coefficient derived,yes,Compute regulator-independent ratio
+P6,Defect throat/adjacency derived from core RLU,OPEN,toy effective constructions only,no,Core continuum first
+P7,Empirical evidence selects RLU,NOT_REACHED,none,yes,Prospective unique prediction
